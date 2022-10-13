@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(137, 232, 105);
+}
+
+
+
+/* Mobile Class Layout */ 
+@media all and (min-width: 280px) and (max-width: 425) {
+    
+}
+
+
+
+
+
+/* Tablet Class Layout */
+@media all and (min-width: 426px) and (max-width: 768) {
+    
+}
+
+
+
+
+
+/* Desktop Class Layout*/
+@media all and (min-width: 769) {
+    
+}
