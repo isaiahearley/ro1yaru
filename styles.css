@@ -174,7 +174,7 @@ main {
 .about-image {
     top: 5.3em;
     height: 130px;
-    margin-left: 70%;
+    margin-left: 68%;
     position: absolute;
     transform: rotate(20deg);
     transition: 1s;
