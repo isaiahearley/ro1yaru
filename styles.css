@@ -173,8 +173,8 @@ main {
 }
 .about-image {
     top: 5.3em;
-    height: 150px;
-    margin-left: 75%;
+    height: 130px;
+    margin-left: 70%;
     position: absolute;
     transform: rotate(20deg);
     transition: 1s;
