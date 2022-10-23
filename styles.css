@@ -147,7 +147,7 @@ main {
     position: relative;
 }
 .about-image {
-    top: 5.3em;
+    top: 14em;
     height: 130px;
     margin-left: 68%;
     position: absolute;
@@ -301,6 +301,9 @@ footer p {
 .desktop {
     display: none;
 }
+.tablet-desktop {
+    display: block; 
+}
 
 /* Header */
 header { 
@@ -365,7 +368,7 @@ main {
 .about-text1{
     border: 1px solid black;
     padding: 1% 10% 1% 10%;
-    margin: 0% 2%;
+    margin: 2% 2%;
     border-radius: 30px;
     background-color: rgb(187, 252, 0);
     line-height: 1em;
@@ -552,7 +555,9 @@ footer p {
 .desktop {
     display: block;
 }
-
+.tablet-desktop {
+    display: block; 
+}
 
 
 /* Header */
