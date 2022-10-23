@@ -133,15 +133,14 @@ main {
     clear: left;
 }
 .about-wrapper {
-    display: inline-grid; 
-    margin: 2% 0% 0% 4%;
-    gap: 10px;
+    display: block; 
+    margin: 2% 4% 2% 4%;
     align-items: start;
 }
 .text-container {
-    margin: 2%;
+    margin: 20px;
     background-color: rgba(250, 250, 250, 0.87);
-    padding: 10.6%;
+    padding: 20px;
     border: 1px solid black;
     border-radius: 15px;
     font-size: 1.1em;
@@ -149,7 +148,7 @@ main {
 .about-text1{
     border: 1px solid black;
     padding: 1% 10% 1% 10%;
-    margin-right: 10%;
+    margin: 0% 2%;
     border-radius: 30px;
     background-color: rgb(187, 252, 0);
     line-height: 1em;
@@ -159,13 +158,20 @@ main {
 .about-text2{
     border: 1px solid black;
     padding: 0%;
-    margin-right: 10%;
+    margin: 5px 10px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     background-color: rgb(187, 252, 0);
     line-height: 1em;
     grid-row: row;
     grid-column: col  3/ span 6;
+}
+.height-adjustment {
+    height: 400px;
+}
+.height-cover {
+    object-fit: cover;
+    height: 350px;
 }
 .about-text2 h3 {
     padding: 4%;
